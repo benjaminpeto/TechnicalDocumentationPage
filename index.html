@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="sidebar">
+     <div>
+        <nav id="navbar">
+            <header>
+                <h3>HTML Doc</h3>
+            </header>
+            <ul id="un_list">
+                <li><a class="nav-link" href="#HTML_class_Attribute">HTML class Attribute</a></li>
+                <li><a class="nav-link" href="#HTML_Layout_Techniques">HTML Layout Techniques</a></li>
+                <li><a class="nav-link" href="#HTML_Links">HTML Links</a></li>
+                <li><a class="nav-link" href="#HTML_Comment_Tags">HTML Comment Tags</a></li>
+                <li><a class="nav-link" href="#HTML_Colors">HTML Colors</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main id="main-doc">
+        <section class="main-section" id="HTML_class_Attribute">
+            <header>
+                <h2 class="heading_secondary">HTML class Attribute</h2>
+            </header>
+            <p>The HTML class attribute is used to specify a class for an HTML element. Multiple HTML elements can share the same class.</p>
+            <p>The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</p>
+            <h4 class="small_heading">Example:</h4>
+            <code class="code_snippets">
+                &lt;h2 class="city main"&gt;London&lt;/h2&gt; <br>
+                &lt;h2 class="city"&gt;Budapest&lt;/h2&gt; <br>
+                &lt;h2 class="city"&gt;Madrid&lt;/h2&gt; <br>
+            </code>
+        </section>
+        <section class="main-section" id="HTML_Layout_Techniques">
+            <header>
+                <h2 class="heading_secondary">HTML Layout Techniques</h2>
+            </header>
+                <p>Websites often display content in multiple columns (like a magazine or a newspaper).</p>
+                <p>There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:</p>
+                <ul>
+                    <li>CSS framework</li>
+                    <li>CSS float property</li>
+                    <li>CSS flexbox</li>
+                    <li>CSS grid</li>
+                    <li>no more :)</li>
+                </ul>
+        </section>
+        <section class="main-section" id="HTML_Links">
+            <header>
+                <h2 class="heading_secondary">HTML Links</h2>
+            </header>
+            <p>The most important attribute of the <code>&lt;a&gt;</code> element is the href attribute, which indicates the link's destination.</p>
+            <p>The link text is the part that will be visible to the reader. Clicking on the link text, will send the reader to the specified URL address.</p>
+            <h4 class="small_heading">Example:</h4>
+            <code class="code_snippets">
+                &lt;a href="https://www.w3schools.com/">Visit W3Schools.com!&lt;/a&gt;
+            </code>
+        </section>
+        <section class="main-section" id="HTML_Comment_Tags">
+            <header>
+                <h2 class="heading_secondary">HTML Comment Tags</h2>
+            </header>
+            <p>You can add comments to your HTML source by using the following syntax:</p>
+            <code class="code_snippets">
+                &lt;!-- Write your comments here -->&gt;
+            </code>
+            <p>Notice that there is an exclamation point (!) in the start tag, but not in the end tag.
+                Note: Comments are not displayed by the browser, but they can help document your HTML source code.</p>
+            <p>With comments you can place notifications and reminders in your HTML code.</p>
+        </section>
+        <section class="main-section" id="HTML_Colors">
+            <header>
+                <h2 class="heading_secondary">HTML Colors</h2>
+            </header>
+            <p>HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.</p>
+            <p>In HTML, a color can be specified by using a color name like Tomato, Orange, Dodgerblue, SlateBlue...</p>
+            <h4 class="small_heading">Example:</h4>
+            <code class="code_snippets">
+                &lt;h1 style="background-color:DodgerBlue;"&gt;Hello World&lt;/h1&gt; <br>
+                &lt;p style="background-color:Tomato;"&gt;Lorem ipsum...&lt;/p&gt;
+            </code>
+        </section>
+    </main>
+</body>
+</html>
